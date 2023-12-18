@@ -13,7 +13,7 @@ const Homepage = () => {
     console.log(data);
   return (
     <div>Homepage<br/>
-    {data.data.message}
+    {data?.data?.message}
     </div>
   )
 }
