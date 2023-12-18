@@ -7,7 +7,7 @@ const Homepage = () => {
         // eslint-disable-next-line
     },[]);
     const fetchApi = async ()=>{
-        const response =  await axios.get('http://localhost:3002/api/health');
+        const response =  await axios.get('https://client-server-integration.onrender.com/api/health');
         setData(response);
     }
     console.log(data);
